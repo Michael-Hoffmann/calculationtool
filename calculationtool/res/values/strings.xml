@@ -1,0 +1,22 @@
+<resources>
+
+    <string name="app_name">CT - Calculation Tool</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="menu_settings">Settings</string>
+    <string name="title_activity_welcome">Welcome to WST</string>
+    <string name="start">Start</string>
+    <string name="title_activity_content">Content</string>
+    <string name="cond20">Conductivity 20° / 25°</string>
+    <string name="title_activity_cond20">cond20</string>
+    <string name="cond20_25">20° -> 25°</string>
+    <string name="cond25_20">25° -> 20°</string>
+    <string name="calculate">Calculate</string>
+    <string name="title_activity_simple_interest">simple interest compounding</string>
+    <string name="final_capital">final capital</string>
+    <string name="initial_capital">initial capital</string>
+    <string name="principal">principal (original amount borrowed or loaned)</string>
+    <string name="interest_rate_period">interest rate for one period</string>
+    <string name="number_of_periods">number of periods</string>
+    <string name="title_activity_finance_content">Content of finance</string>
+
+</resources>

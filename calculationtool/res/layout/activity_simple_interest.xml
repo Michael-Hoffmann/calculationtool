@@ -1,0 +1,46 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/LinearLayout1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <EditText
+        android:id="@+id/editTextSIInitial_Capital"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="@string/initial_capital"
+        android:inputType="numberDecimal" />
+
+    <EditText
+        android:id="@+id/editTextSIPrincipal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="@string/principal"
+        android:inputType="numberDecimal" />
+
+    <EditText
+        android:id="@+id/editTextSiInterestRatePeriod"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="@string/interest_rate_period"
+        android:inputType="numberDecimal" />
+
+    <EditText
+        android:id="@+id/editTextSINumberOfPeriods"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="@string/number_of_periods"
+        android:inputType="numberDecimal" />
+
+    <Button
+        android:id="@+id/buttonSICalculate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/calculate" />
+
+</LinearLayout>
