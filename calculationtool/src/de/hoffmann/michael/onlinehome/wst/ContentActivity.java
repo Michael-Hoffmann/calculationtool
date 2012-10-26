@@ -19,7 +19,7 @@ public class ContentActivity extends ListActivity {
 //      TODO: Unknown Method, why?
 //        getActionBar().setDisplayHomeAsUpEnabled(true);
         
-        String[] values = new String[] { this.getString(R.string.cond20), this.getString(R.string.title_activity_finance_content)};
+        String[] values = new String[] { this.getString(R.string.title_activity_wstcontent), this.getString(R.string.title_activity_finance_content)};
             ArrayAdapter<String> adapter = new ArrayAdapter<String>(this,
                 android.R.layout.simple_list_item_1, values);
         setListAdapter(adapter);
@@ -51,9 +51,9 @@ public class ContentActivity extends ListActivity {
 		String item = (String) l.getItemAtPosition(position);
 		
 		Intent intent = null;
-		if(item.equals(this.getString(R.string.cond20))){
-			Toast.makeText(getBaseContext(), this.getString(R.string.cond20), Toast.LENGTH_SHORT).show();
-			intent = new Intent(ContentActivity.this, Cond20Activity.class);
+		if(item.equals(this.getString(R.string.title_activity_wstcontent))){
+			Toast.makeText(getBaseContext(), this.getString(R.string.title_activity_wstcontent), Toast.LENGTH_SHORT).show();
+			intent = new Intent(ContentActivity.this, WSTContent.class);
 		} else if(item.equals(this.getString(R.string.title_activity_finance_content))){
 			Toast.makeText(getBaseContext(), this.getString(R.string.title_activity_finance_content), Toast.LENGTH_SHORT).show();
 			intent = new Intent(ContentActivity.this, FinanceContent.class);

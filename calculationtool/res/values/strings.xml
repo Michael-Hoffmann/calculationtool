@@ -7,7 +7,7 @@
     <string name="start">Start</string>
     <string name="title_activity_content">Content</string>
     <string name="cond20">Conductivity 20° / 25°</string>
-    <string name="title_activity_cond20">cond20</string>
+    <string name="title_activity_cond20">Conductivity 20° / 25°</string>
     <string name="cond20_25">20° -> 25°</string>
     <string name="cond25_20">25° -> 20°</string>
     <string name="calculate">Calculate</string>
@@ -18,5 +18,6 @@
     <string name="interest_rate_period">interest rate for one period</string>
     <string name="number_of_periods">number of periods</string>
     <string name="title_activity_finance_content">Content of finance</string>
+    <string name="title_activity_wstcontent">Water Science and Technology Content</string>
 
 </resources>
