@@ -1,23 +1,37 @@
 <resources>
 
-    <string name="app_name">CT - Calculation Tool</string>
+    <string name="app_name">Wasserberechnungen</string>
     <string name="hello_world">Hello world!</string>
-    <string name="menu_settings">Settings</string>
-    <string name="title_activity_welcome">Welcome to WST</string>
+    <string name="menu_settings">Einstellungen</string>
+    <string name="title_activity_welcome">Willkommen</string>
     <string name="start">Start</string>
-    <string name="title_activity_content">Content</string>
-    <string name="cond20">Conductivity 20° / 25°</string>
-    <string name="title_activity_cond20">Conductivity 20° / 25°</string>
+    <string name="cond20">Leitfähigkeit 20° / 25°</string>
+    <string name="title_activity_cond20">Leitfähigkeit 20° / 25°</string>
     <string name="cond20_25">20° -> 25°</string>
     <string name="cond25_20">25° -> 20°</string>
-    <string name="calculate">Calculate</string>
-    <string name="title_activity_simple_interest">simple interest compounding</string>
-    <string name="final_capital">final capital</string>
-    <string name="initial_capital">initial capital</string>
-    <string name="principal">principal (original amount borrowed or loaned)</string>
-    <string name="interest_rate_period">interest rate for one period</string>
-    <string name="number_of_periods">number of periods</string>
-    <string name="title_activity_finance_content">Content of finance</string>
-    <string name="title_activity_wstcontent">Water Science and Technology Content</string>
+    <string name="calculate">Berechnen</string>
+    <string name="title_activity_co2from_kb82">CO2 aus KB8,2</string>
+    <string name="title_activity_wstcontent">Inhalt</string>
+    <string name="title_activity_hco3from_ks43">Hydrogencarbonat aus KS4,3</string>
+    <string name="title_activity_khfrom_ks43">Karbonathärte aus KS4,3</string>
+    <string name="title_activity_dhfrom_ea">Gesamthärte °dH</string>
+    <string name="calciumkonzentration_in_mg_l">Calciumkonzentration in mg/l</string>
+    <string name="magnesiumkonzentration_in_mg_l">Magnesiumkonzentration in mg/l</string>
+    <string name="title_activity_hfrom_ea">HfromEAActivity</string>
+    <string name="title_activity_p">PActivity</string>
+    <string name="p_po4">P->PO4</string>
+    <string name="po4_p">PO4->P</string>
+    <string name="konzentration">Konzentration</string>
+    <string name="title_activity_si">SiActivity</string>
+    <string name="si_sio2">Si->SiO2</string>
+    <string name="sio2_si">SiO2->Si</string>
+    <string name="title_activity_mixcross">MixcrossActivity</string>
+    <string name="volumen_endl_sung">Volumen Endlösung</string>
+    <string name="konz_endl_sung">Konz. Endlösung</string>
+    <string name="konz_l_sung_2">Konz. Lösung 2</string>
+    <string name="konz_l_sung_1">Konz. Lösung 1</string>
+    <string name="welcometext">Diese App wurde im Ramen einer Hausarbeit an der FOM Duisburg von Tony Tackenberg und Michael Hoffmann entwickelt. Wir versichern, dass wir alle Berechnugen getestet und validiert haben, übernehmen jedoch keine Gewähr für die Richtigkeit der berechneten Ergebnisse.\n\n© (2013)\nTony Tackenberg / Michael Hoffmann</string>
+    <string name="basekapazit_t_bis_8_2_in_mmol_l">Basekapazität bis 8,2 in mmol/L</string>
+    <string name="leitf_higkeit">Leitfähigkeit</string>
 
 </resources>

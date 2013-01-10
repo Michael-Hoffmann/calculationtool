@@ -21,33 +21,8 @@
             </intent-filter>
         </activity>
         <activity
-            android:name=".ContentActivity"
-            android:label="@string/title_activity_content" >
-            <meta-data
-                android:name="android.support.PARENT_ACTIVITY"
-                android:value="WelcomeActivity" />
-        </activity>
-        <activity
             android:name=".Cond20Activity"
             android:label="@string/title_activity_cond20" >
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
-
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
-        </activity>
-        <activity
-            android:name=".SimpleInterestActivity"
-            android:label="@string/title_activity_simple_interest" >
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
-
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
-        </activity>
-        <activity
-            android:name=".FinanceContent"
-            android:label="@string/title_activity_finance_content" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -62,6 +37,62 @@
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
+        </activity>
+        <activity
+            android:name=".CO2fromKb82"
+            android:label="@string/title_activity_co2from_kb82" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="de.hoffmann.michael.onlinehome.wst.WSTContent" />
+        </activity>
+        <activity
+            android:name=".HCO3fromKS43Activity"
+            android:label="@string/title_activity_hco3from_ks43" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="de.hoffmann.michael.onlinehome.wst.WSTContent" />
+        </activity>
+        <activity
+            android:name=".KHfromKS43Activity"
+            android:label="@string/title_activity_khfrom_ks43" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="de.hoffmann.michael.onlinehome.wst.WSTContent" />
+        </activity>
+        <activity
+            android:name=".DHfromEAActivity"
+            android:label="@string/title_activity_dhfrom_ea" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="de.hoffmann.michael.onlinehome.wst.WSTContent" />
+        </activity>
+        <activity
+            android:name=".HfromEAActivity"
+            android:label="@string/title_activity_hfrom_ea" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="de.hoffmann.michael.onlinehome.wst.WSTContent" />
+        </activity>
+        <activity
+            android:name=".PActivity"
+            android:label="@string/title_activity_p" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="de.hoffmann.michael.onlinehome.wst.WSTContent" />
+        </activity>
+        <activity
+            android:name=".SiActivity"
+            android:label="@string/title_activity_si" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="de.hoffmann.michael.onlinehome.wst.WSTContent" />
+        </activity>
+        <activity
+            android:name=".MixcrossActivity"
+            android:label="@string/title_activity_mixcross" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="de.hoffmann.michael.onlinehome.wst.WSTContent" />
         </activity>
     </application>
 

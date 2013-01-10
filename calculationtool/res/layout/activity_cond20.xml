@@ -25,12 +25,13 @@
             android:text="@string/cond25_20" />
  
     </RadioGroup>
-
+
     <EditText
         android:id="@+id/editTextCondInput"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:ems="10"
+        android:hint="@string/leitf_higkeit"
         android:inputType="numberDecimal" >
 
         <requestFocus />

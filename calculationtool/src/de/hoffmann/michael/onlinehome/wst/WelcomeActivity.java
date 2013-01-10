@@ -17,7 +17,7 @@ public class WelcomeActivity extends Activity {
         Button button = (Button) findViewById(R.id.buttonStart);
         button.setOnClickListener(new View.OnClickListener() {
             public void onClick(View v) {
-            	Intent intent = new Intent(WelcomeActivity.this, ContentActivity.class);
+            	Intent intent = new Intent(WelcomeActivity.this, WSTContent.class);
             	if(intent!=null)
         			startActivity(intent);
             }

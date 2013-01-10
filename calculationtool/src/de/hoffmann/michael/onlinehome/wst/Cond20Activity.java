@@ -76,7 +76,7 @@ public class Cond20Activity extends Activity {
 	    case RESULT_DIALOG:
 	    // Show the Result of the calculation
 	    Builder builder = new AlertDialog.Builder(this);
-	    builder.setMessage("The Result is " + numberFormat.format(result));
+	    builder.setMessage("Das Ergebnis lautet " + numberFormat.format(result));
 	    builder.setCancelable(true);
 	    builder.setPositiveButton("OK", new DialogInterface.OnClickListener(){
 
