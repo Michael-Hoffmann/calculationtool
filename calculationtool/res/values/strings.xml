@@ -3,7 +3,7 @@
     <string name="app_name">Wasserberechnungen</string>
     <string name="hello_world">Hello world!</string>
     <string name="menu_settings">Einstellungen</string>
-    <string name="title_activity_welcome">Willkommen</string>
+    <string name="title_activity_welcome">Wasser-\nberechnung</string>
     <string name="start">Start</string>
     <string name="cond20">Leitfähigkeit 20° / 25°</string>
     <string name="title_activity_cond20">Leitfähigkeit 20° / 25°</string>
@@ -17,21 +17,24 @@
     <string name="title_activity_dhfrom_ea">Gesamthärte °dH</string>
     <string name="calciumkonzentration_in_mg_l">Calciumkonzentration in mg/l</string>
     <string name="magnesiumkonzentration_in_mg_l">Magnesiumkonzentration in mg/l</string>
-    <string name="title_activity_hfrom_ea">HfromEAActivity</string>
-    <string name="title_activity_p">PActivity</string>
+    <string name="title_activity_hfrom_ea">Härte inkl. Härtebereich</string>
+    <string name="title_activity_p">P &lt;-&gt; PO4</string>
     <string name="p_po4">P->PO4</string>
     <string name="po4_p">PO4->P</string>
     <string name="konzentration">Konzentration</string>
-    <string name="title_activity_si">SiActivity</string>
+    <string name="title_activity_si">Si &lt;-&gt; SiO2</string>
     <string name="si_sio2">Si->SiO2</string>
     <string name="sio2_si">SiO2->Si</string>
-    <string name="title_activity_mixcross">MixcrossActivity</string>
+    <string name="title_activity_mixcross">Mischungskreuz</string>
     <string name="volumen_endl_sung">Volumen Endlösung</string>
     <string name="konz_endl_sung">Konz. Endlösung</string>
     <string name="konz_l_sung_2">Konz. Lösung 2</string>
     <string name="konz_l_sung_1">Konz. Lösung 1</string>
-    <string name="welcometext">Diese App wurde im Ramen einer Hausarbeit an der FOM Duisburg von Tony Tackenberg und Michael Hoffmann entwickelt. Wir versichern, dass wir alle Berechnugen getestet und validiert haben, übernehmen jedoch keine Gewähr für die Richtigkeit der berechneten Ergebnisse.\n\n© (2013)\nTony Tackenberg / Michael Hoffmann</string>
+    <string name="welcometext">Diese App wurde im Ramen einer Hausarbeit an der FOM Duisburg von Tony Tackenberg und Michael Hoffmann entwickelt. Wir versichern, dass wir alle Berechnungen getestet und validiert haben, übernehmen jedoch keine Gewähr für die Richtigkeit der berechneten Ergebnisse.\n\nVerweise und Links\nBei direkten oder indirekten Verweisen auf fremde Webseiten ("Hyperlinks"), die außerhalb des Verantwortungsbereiches des Autors liegen, würde eine Haftungsverpflichtung ausschließlich in dem Fall in Kraft treten, in dem der Autor von den Inhalten Kenntnis hat und es ihm technisch möglich und zumutbar wäre, die Nutzung im Falle rechtswidriger Inhalte zu verhindern. Der Autor erklärt hiermit ausdrücklich, dass zum Zeitpunkt der Linksetzung keine illegalen Inhalte auf den zu verlinkenden Seiten erkennbar waren. Auf die aktuelle und zukünftige Gestaltung, die Inhalte oder die Urheberschaft der verlinkten/verknüpften Seiten hat der Autor keinerlei Einfluss. Deshalb distanziert er sich hiermit ausdrücklich von allen Inhalten aller verlinkten /verknüpften Seiten, die nach der Linksetzung verändert wurden. Diese Feststellung gilt für alle innerhalb des eigenen Internetangebotes gesetzten Links und Verweise sowie für Fremdeinträge in vom Autor eingerichteten Gästebüchern, Diskussionsforen, Linkverzeichnissen, Mailinglisten und in allen anderen Formen von Datenbanken, auf deren Inhalt externe Schreibzugriffe möglich sind. Für illegale, fehlerhafte oder unvollständige Inhalte und insbesondere für Schäden, die aus der Nutzung oder Nichtnutzung solcherart dargebotener Informationen entstehen, haftet allein der Anbieter der Seite, auf welche verwiesen wurde, nicht derjenige, der über Links auf die jeweilige Veröffentlichung lediglich verweist.\n\n© (2013)\nTony Tackenberg / Michael Hoffmann</string>
     <string name="basekapazit_t_bis_8_2_in_mmol_l">Basekapazität bis 8,2 in mmol/L</string>
     <string name="leitf_higkeit">Leitfähigkeit</string>
+    <string name="title_activity_result">Ergebnis</string>
+    <string name="Mail">Mail</string>
+    <string name="info">Info</string>
 
 </resources>
