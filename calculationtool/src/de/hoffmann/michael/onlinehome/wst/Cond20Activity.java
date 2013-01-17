@@ -51,28 +51,35 @@ public class Cond20Activity extends Activity {
 				result = value / 1.116;
 			}
 
-			String text = "Das Ergebnis für eine Umrechung der Leitfähigkeit von "
-					+ value
-					+ " bei Referenztemperatur "
-					+ (radioButton.isChecked() ? "20°C" : "25°C")
-					+ " auf eine Referenztemperatur von "
-					+ (radioButton.isChecked() ? "20°C" : "25°C")
-					+ " lautet "
-					+ result;
+			StringBuilder sb = new StringBuilder();
+			sb.append(INFO);
+			sb.append("\n\n");
+			sb.append("LF");
+			sb.append(radioButton.isSelected()?"(20°C)":"(25°C)");
+			sb.append("=");
+			sb.append(numberFormat.format(value));
+			sb.append("\n\n");
+			sb.append("Ergebnis:");
+			sb.append("\n");
+			sb.append("LF");
+			sb.append(radioButton.isSelected()?"(25°C)":"(20°C)");
+			sb.append("=");
+			sb.append(numberFormat.format(result));
 
-			ResultActivity.showMe(text, this);
+			ResultActivity.showMe(sb.toString(), result, this);
 
 		} catch (Exception e) {
-			Toast.makeText(getBaseContext(), e.getMessage(), Toast.LENGTH_SHORT)
+			Toast.makeText(getBaseContext(),
+					"Bitte geben Sie eine gültige Zahl ein", Toast.LENGTH_SHORT)
 					.show();
 			e.printStackTrace();
 		}
 
 	}
-	
+
 	private static final int INFO_DIALOG = 0;
-	private final String INFO = "Umrechung der Leitfähigkeit zwischen den Referenztemperaturen 20°C und 25°C";
-	
+	private final String INFO = "Umrechnung der Leitfähigkeit von natürlichen Wässern zwischen den Referenztemperaturen 20°C und 25°C";
+
 	@Override
 	public boolean onCreateOptionsMenu(Menu menu) {
 		getMenuInflater().inflate(R.menu.menu_calculation, menu);
@@ -88,12 +95,14 @@ public class Cond20Activity extends Activity {
 			showDialog(INFO_DIALOG);
 			break;
 		case R.id.co2:
-			WikiSites.openSite(WikiSites.lf, this);
+			WikiSites.openSite(WikiSites.CO2, this);
 			break;
 		case R.id.kb:
 			WikiSites.openSite(WikiSites.KB, this);
 			break;
-
+		case R.id.wasseranalyse:
+			WikiSites.openSite(WikiSites.WASSERANALYSE, this);
+			break;
 		default:
 			break;
 		}
@@ -102,7 +111,6 @@ public class Cond20Activity extends Activity {
 
 	@Override
 	protected Dialog onCreateDialog(int id) {
-		numberFormat.setRoundingMode(RoundingMode.HALF_UP);
 		switch (id) {
 
 		case INFO_DIALOG:
@@ -129,4 +137,3 @@ public class Cond20Activity extends Activity {
 	}
 
 }
-
