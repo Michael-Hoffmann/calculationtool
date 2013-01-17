@@ -36,5 +36,9 @@
     <string name="title_activity_result">Ergebnis</string>
     <string name="Mail">Mail</string>
     <string name="info">Info</string>
+    <string name="title_activity_metric_prefix">Si-Präfix</string>
+    <string name="umrechnung_von">Umrechnung von</string>
+    <string name="nach">nach</string>
+    <string name="wert">Wert</string>
 
 </resources>

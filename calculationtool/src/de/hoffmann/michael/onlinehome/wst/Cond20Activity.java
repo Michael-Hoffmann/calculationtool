@@ -55,14 +55,14 @@ public class Cond20Activity extends Activity {
 			sb.append(INFO);
 			sb.append("\n\n");
 			sb.append("LF");
-			sb.append(radioButton.isSelected()?"(20°C)":"(25°C)");
+			sb.append(radioButton.isChecked()?"(20°C)":"(25°C)");
 			sb.append("=");
 			sb.append(numberFormat.format(value));
 			sb.append("\n\n");
 			sb.append("Ergebnis:");
 			sb.append("\n");
 			sb.append("LF");
-			sb.append(radioButton.isSelected()?"(25°C)":"(20°C)");
+			sb.append(radioButton.isChecked()?"(25°C)":"(20°C)");
 			sb.append("=");
 			sb.append(numberFormat.format(result));
 

@@ -58,7 +58,7 @@ public class SiActivity extends Activity {
 			sb.append(INFO);
 			sb.append("\n\n");
 			sb.append("β(");
-			sb.append(radioButton.isSelected() ? "Si" : "SiO2");
+			sb.append(radioButton.isChecked() ? "Si" : "SiO2");
 			sb.append(")");
 			sb.append("=");
 			sb.append(numberFormat.format(value));
@@ -67,7 +67,7 @@ public class SiActivity extends Activity {
 			sb.append("Ergebnis:");
 			sb.append("\n");
 			sb.append("β(");
-			sb.append(radioButton.isSelected() ? "SiO2" : "Si");
+			sb.append(radioButton.isChecked() ? "SiO2" : "Si");
 			sb.append(")");
 			sb.append("=");
 			sb.append(numberFormat.format(result));

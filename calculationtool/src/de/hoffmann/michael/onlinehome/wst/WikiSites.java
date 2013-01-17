@@ -23,6 +23,7 @@ public class WikiSites {
 	public static String PO4= "http://de.wikipedia.org/wiki/Phosphate";
 	public static String SI= "http://de.wikipedia.org/wiki/Silicium";
 	public static String SIO2= "http://de.wikipedia.org/wiki/Silicate";
+	public static String PRAEFIX= "http://de.wikipedia.org/wiki/Vors%C3%A4tze_f%C3%BCr_Ma%C3%9Feinheiten";
 	
 	public static void openSite(String site, Activity activity){
 		Uri uri = Uri.parse(site);

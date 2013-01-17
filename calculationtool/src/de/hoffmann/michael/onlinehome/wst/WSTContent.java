@@ -26,6 +26,7 @@ public class WSTContent extends ListActivity {
 				this.getString(R.string.title_activity_khfrom_ks43),
 				this.getString(R.string.title_activity_mixcross),
 				this.getString(R.string.title_activity_p),
+				this.getString(R.string.title_activity_metric_prefix),
 				this.getString(R.string.title_activity_si), };
 		Arrays.sort(values);
 		ArrayAdapter<String> adapter = new ArrayAdapter<String>(this,
@@ -91,6 +92,11 @@ public class WSTContent extends ListActivity {
 					this.getString(R.string.title_activity_si),
 					Toast.LENGTH_SHORT).show();
 			intent = new Intent(WSTContent.this, SiActivity.class);
+		} else if (item.equals(this.getString(R.string.title_activity_metric_prefix))) {
+			Toast.makeText(getBaseContext(),
+					this.getString(R.string.title_activity_metric_prefix),
+					Toast.LENGTH_SHORT).show();
+			intent = new Intent(WSTContent.this, MetricPrefixActivity.class);
 		}
 
 		if (intent != null)

@@ -56,7 +56,7 @@ public class PActivity extends Activity {
 			sb.append(INFO);
 			sb.append("\n\n");
 			sb.append("β(");
-			sb.append(radioButton.isSelected() ? "P" : "PO4");
+			sb.append(radioButton.isChecked() ? "P" : "PO4");
 			sb.append(")");
 			sb.append("=");
 			sb.append(numberFormat.format(value));
@@ -65,7 +65,7 @@ public class PActivity extends Activity {
 			sb.append("Ergebnis:");
 			sb.append("\n");
 			sb.append("β(");
-			sb.append(radioButton.isSelected() ? "PO4" : "P");
+			sb.append(radioButton.isChecked() ? "PO4" : "P");
 			sb.append(")");
 			sb.append("=");
 			sb.append(numberFormat.format(result));
