@@ -13,7 +13,6 @@
         android:inputType="none"
         android:ems="10"
         android:scrollHorizontally="true"
-        android:text="@string/hello_world"
         tools:context=".ResultActivity" >
 
         <requestFocus />
