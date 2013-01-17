@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+    <item android:id="@+id/wikisites" android:title="Hilfe (Internet)" android:titleCondensed="Hilfe">
+        <menu>
+            <item android:id="@+id/ca" android:title="Calcium"/>
+            <item android:id="@+id/mg" android:title="Magnesium"/>
+            <item android:id="@+id/stoffmengenkonzentration" android:title="Stoffmengenkonzentration"/>
+            <item android:id="@+id/wasserhaerte" android:title="Wasserhärte"/>
+            <item android:id="@+id/wasseranalyse" android:title="Wasseranalyse"/>
+            <item android:id="@+id/wrmg" android:title="WRMG 2007"/>
+        </menu>
+    </item>
+    
+
+</menu>

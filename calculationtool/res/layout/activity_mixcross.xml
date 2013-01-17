@@ -1,0 +1,59 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mixcross"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <EditText
+        android:id="@+id/editTextmixcrossL1Input"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="@string/konz_l_sung_1"
+        android:inputType="numberDecimal" >
+
+        <requestFocus />
+    </EditText>
+    
+    <EditText
+        android:id="@+id/editTextmixcrossL2Input"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="@string/konz_l_sung_2"
+        android:inputType="numberDecimal" >
+
+        <requestFocus />
+    </EditText>
+    
+    <EditText
+        android:id="@+id/editTextmixcrossLEndInput"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="@string/konz_endl_sung"
+        android:inputType="numberDecimal" >
+
+        <requestFocus />
+    </EditText>
+
+	<EditText
+        android:id="@+id/editTextmixcrossVEndInput"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="@string/volumen_endl_sung"
+        android:inputType="numberDecimal" >
+
+        <requestFocus />
+    </EditText>
+
+
+    <Button
+        android:id="@+id/buttonMixCross"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/calculate" />
+
+</LinearLayout>

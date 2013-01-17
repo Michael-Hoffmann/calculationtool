@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+    <item android:id="@+id/wikisites" android:title="Hilfe (Internet)" android:titleCondensed="Hilfe">
+        <menu>
+            <item android:id="@+id/co2" android:title="Kohlendioxid (CO2)" android:titleCondensed="CO2"/>
+            <item android:id="@+id/kb" android:title="Basekapazität (KB8,2)" android:titleCondensed="KB8,2"/>
+            <item android:id="@+id/wasseranalyse" android:title="Wasseranalyse"/>
+        </menu>
+    </item>
+    
+
+</menu>
